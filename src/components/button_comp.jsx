@@ -5,7 +5,7 @@ class Button extends Component {
   render() {
     return (
       <React.Fragment>
-        <button>Button</button>
+        <button onClick={() => alert('Hi!')}>Button</button>
       </React.Fragment>
     );
   }
